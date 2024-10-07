@@ -1,0 +1,48 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Produção</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link para o CSS -->
+</head>
+<body>
+    <h1>•Lena Blacksmith∆</h1>
+    <form id="formulario">
+        <label for="tipo">Selecione o Tipo:</label>
+        <select id="tipo">
+            <option value="item">Item</option>
+            <option value="armadura">Armadura</option>
+        </select>
+        <br>
+
+        <label for="tamanho">Selecione o Tamanho:</label>
+        <select id="tamanho">
+            <option value="P">P</option>
+            <option value="M">M</option>
+            <option value="G">G</option>
+        </select>
+        <br>
+
+        <label for="raridade">Selecione a Raridade:</label>
+<select id="raridade">
+    <option value="Comum">Comum</option>
+    <option value="Basico">Basico</option>
+    <option value="Raro">Raro</option>
+    <option value="Epico">Epico</option>
+    <option value="Especial">Especial</option>
+    <option value="Lendario">Lendario</option>
+    <option value="Iridescente">Iridescente</option>
+</select>
+
+        <label for="quantidade">Quantidade:</label>
+        <input type="number" id="quantidade" min="1" value="1">
+        <br>
+
+        <button type="button" onclick="calcular()">Calcular</button>
+    </form>
+
+    <h2>Resultado</h2>
+    <p id="resultado"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

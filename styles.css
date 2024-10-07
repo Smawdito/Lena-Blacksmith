@@ -1,0 +1,97 @@
+body {
+    background-color: #1a1a1a; /* Fundo mais escuro para um estilo moderno */
+    color: #f5f5f5; /* Texto claro */
+    font-family: 'Poppins', sans-serif; /* Fonte moderna */
+    margin: 0;
+    padding: 20px;
+    transition: background-color 0.5s ease-in-out; /* Transição suave */
+}
+
+h1 {
+    text-align: center;
+    font-size: 42px;
+    color: #ffcc00; /* Dourado */
+    animation: fadeIn 2s; /* Animação de entrada */
+}
+
+form {
+    background: linear-gradient(135deg, #333, #444); /* Fundo com gradiente */
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.7); /* Sombra mais forte */
+    max-width: 450px;
+    margin: auto;
+    animation: slideIn 1s ease-out;
+}
+
+label {
+    font-weight: bold;
+    color: #ffd700;
+}
+
+select, input {
+    width: 100%;
+    padding: 12px;
+    margin: 15px 0;
+    border: 2px solid #ffcc00;
+    border-radius: 8px;
+    background-color: #555;
+    color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s; /* Transição suave no hover */
+}
+
+select:hover, input:hover {
+    transform: scale(1.05); /* Aumenta o tamanho */
+    box-shadow: 0 0 10px rgba(255, 204, 0, 0.5); /* Efeito de brilho */
+}
+
+button {
+    background-color: #ffcc00;
+    color: #1a1a1a;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 18px;
+    width: 100%;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background-color: #ffd700;
+    transform: scale(1.1);
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+    animation: fadeIn 1.5s ease-in;
+}
+
+#resultado {
+    text-align: center;
+    background: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 30%;
+    margin-right: 30%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+#resultado.show {
+    opacity: 1; /* Faz o resultado aparecer com um fade */
+}
+
+/* Animações personalizadas */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateY(-50px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
