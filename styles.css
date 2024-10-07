@@ -74,9 +74,7 @@ h2 {
     background: #444;
     padding: 20px;
     border-radius: 10px;
-    margin-top: 30px;
-    margin-left: 30%;
-    margin-right: 30%;
+    margin: 30px 30px 30px 30px;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
 }
