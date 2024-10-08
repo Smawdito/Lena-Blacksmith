@@ -32,29 +32,29 @@ const valoresProducao = {
         P: {
             Comum: { mn: 1685, tempo: '2:30', custoMn: 1685, venda: 2250 },
             Basico: { mn: 1515, tempo: '3:00', custoMn: 3030, venda: 4050 },
-            Raro: { mn: 2025, tempo: '4:00', custoMn: 4050, venda: 5400 },
-            Epico: { mn: 2255, tempo: '5:00', custoMn: 4510, venda: 6075 },
-            Especial: { mn: 2500, tempo: '6:00', custoMn: 5000, venda: 7500 },
-            Lendario: { mn: 2800, tempo: '7:00', custoMn: 5600, venda: 8400 },
-            Iridescente: { mn: 3100, tempo: '8:00', custoMn: 6200, venda: 9300 }
+            Raro: { mn: 1145, tempo: '3:30', custoMn: 5725, venda: 7650 },
+            Epico: { mn: 975, tempo: '4:00', custoMn: 9759, venda: 13050 },
+            Especial: { mn: 605, tempo: '4:30', custoMn: 15125, venda: 20250 },
+            Lendario: { mn: 435, tempo: '5:00', custoMn: 21750, venda: 29250 },
+            Iridescente: { mn: 300, tempo: '5:30', custoMn: 30000, venda: 40050 }
         },
         M: {
             Comum: { mn: 1855, tempo: '3:00', custoMn: 1855, venda: 2475 },
             Basico: { mn: 1770, tempo: '3:30', custoMn: 3540, venda: 4725 },
-            Raro: { mn: 2255, tempo: '4:30', custoMn: 4510, venda: 6075 },
-            Epico: { mn: 2530, tempo: '6:00', custoMn: 5060, venda: 6750 },
-            Especial: { mn: 2800, tempo: '7:00', custoMn: 5600, venda: 8400 },
-            Lendario: { mn: 3100, tempo: '8:00', custoMn: 6200, venda: 9300 },
-            Iridescente: { mn: 3400, tempo: '9:00', custoMn: 6800, venda: 10200 }
+            Raro: { mn: 1315, tempo: '4:00', custoMn: 6575, venda: 8775 },
+            Epico: { mn: 1095, tempo: '4:30', custoMn: 10950, venda: 14625 },
+            Especial: { mn: 665, tempo: '5:00', custoMn: 16625, venda: 22275 },
+            Lendario: { mn: 475, tempo: '5:30', custoMn: 23750, venda: 31725 },
+            Iridescente: { mn: 320, tempo: '6:00', custoMn: 32000, venda: 42975 }
         },
         G: {
             Comum: { mn: 2025, tempo: '3:30', custoMn: 2025, venda: 2700 },
             Basico: { mn: 2025, tempo: '4:00', custoMn: 4050, venda: 5400 },
-            Raro: { mn: 2530, tempo: '5:00', custoMn: 5060, venda: 6750 },
-            Epico: { mn: 2815, tempo: '6:30', custoMn: 5630, venda: 7425 },
-            Especial: { mn: 3100, tempo: '7:30', custoMn: 6200, venda: 9300 },
-            Lendario: { mn: 3400, tempo: '8:30', custoMn: 6800, venda: 10200 },
-            Iridescente: { mn: 3700, tempo: '9:30', custoMn: 7400, venda: 11100 }
+            Raro: { mn: 1485, tempo: '4:30', custoMn: 7425, venda: 9900 },
+            Epico: { mn: 1215, tempo: '5:00', custoMn: 12150, venda: 16200 },
+            Especial: { mn: 725, tempo: '5:30', custoMn: 18125, venda: 24300 },
+            Lendario: { mn: 510, tempo: '6:00', custoMn: 25500, venda: 34200 },
+            Iridescente: { mn: 345, tempo: '6:30', custoMn: 34500, venda: 45900 }
         }
     }
 };
